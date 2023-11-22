@@ -1,9 +1,9 @@
-import calender from '../assets/header/calender.svg';
-import calenderBlack from '../assets/header/calender-black.png';
-import dollar from '../assets/header/dollar.svg';
-import user from '../assets/header/user.png';
-import vector1 from '../assets/header/vector-1.png';
-import vector3 from '../assets/header/vector-3.png';
+import calender from '../../assets/header/calender.svg';
+import calenderBlack from '../../assets/header/calender-black.png';
+import dollar from '../../assets/header/dollar.svg';
+import user from '../../assets/header/user.png';
+import vector1 from '../../assets/header/vector-1.png';
+import vector3 from '../../assets/header/vector-3.png';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -52,26 +52,8 @@ const options = {
     },
     
   },
- 
   defaultFontFamily: 'Poppins, sans-serif',
-  tooltips: {
-    enabled: true,
-    mode: 'index',
-    intersect: false,
-    backgroundColor: 'rgba(255, 255, 255, 0.8)', // Background color of the tooltip
-    titleFont: {
-      family: 'Arial, sans-serif',
-      size: 16,
-      weight: 'bold'
-    },
-    bodyFont: {
-      family: 'Arial, sans-serif',
-      size: 14
-    },
-    displayColors: false,
-    borderColor: 'rgba(0, 0, 0, 0.5)', // Border color of the tooltip
-    borderWidth: 1
-  }
+ 
 }
 const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July','August','Sep','Oct','Nov','Dec'];
 const data = {

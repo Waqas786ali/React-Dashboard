@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import 'react-calendar/dist/Calendar.css';
-import menicure from '../assets/appointments/frame83.png'
 import Calendar from 'react-calendar';
-import alina from '../assets/alina.png'
+import menicure from '../../assets/appointments/frame83.png'
+import alina from '../../assets/alina.png'
 
 const todayAppointmentData = [
     {

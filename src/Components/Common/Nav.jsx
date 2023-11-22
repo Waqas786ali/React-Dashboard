@@ -1,7 +1,7 @@
-import bars from "../assets/nav/bars.svg";
-import profile from "../assets/nav/profile.png";
-import customer from "../assets/nav/customer-service.png";
-import notification from "../assets/nav/notification.svg";
+import bars from "../../assets/nav/bars.svg";
+import profile from "../../assets/nav/profile.png";
+import customer from "../../assets/nav/customer-service.png";
+import notification from "../../assets/nav/notification.svg";
 
 const Nav = ({ setCheck }) => {
   return (
