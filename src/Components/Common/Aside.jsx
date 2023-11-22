@@ -1,8 +1,11 @@
+import {useContext} from 'react'
 import logo from '../../assets/logo.svg'
 import barsOpen from '../../assets/aside/bars-open.svg';
 import { Link } from 'react-router-dom';
+import DataContext from '../../Context/DataContext'
 
-const Aside = ({setCheck, check}) => {
+const Aside = () => {
+  const {setCheck,check } = useContext(DataContext);
   return (
     <aside
       id="default-sidebar"

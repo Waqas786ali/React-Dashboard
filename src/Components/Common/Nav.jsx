@@ -1,9 +1,12 @@
+import {useContext} from 'react'
 import bars from "../../assets/nav/bars.svg";
 import profile from "../../assets/nav/profile.png";
 import customer from "../../assets/nav/customer-service.png";
 import notification from "../../assets/nav/notification.svg";
+import DataContext from '../../Context/DataContext'
 
-const Nav = ({ setCheck }) => {
+const Nav = () => {
+  const {setCheck } = useContext(DataContext);
   return (
     <nav className="flex justify-between items-center py-3 sm:px-10 px-3">
       <button onClick={() => setCheck(true)}>
